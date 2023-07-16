@@ -208,6 +208,10 @@ main {
   background-color: #fff;
 }
 
+.access-wrap {
+  width: 70%;
+}
+
 .access-wrap__ttl {
   text-align: center;
   margin-bottom: 4%;
@@ -222,7 +226,7 @@ main {
 .access-wrap__traf {
   display: flex;
   justify-content: space-between;
-  width: 85%;
+  width: 100%;
   margin: 4% auto;
 }
 
@@ -235,11 +239,16 @@ main {
 
 .access-wrap__traf__block__ico {
   width: 20%;
-  margin-right: 0;
+  margin: 0;
 }
 
 .access-wrap__traf__block__ico i {
   font-size: 4rem;
+}
+
+.access-wrap__traf__block__txt {
+  margin-left: 3%;
+  width: 100%;
 }
 
 .access-wrap__traf__block__txt p {

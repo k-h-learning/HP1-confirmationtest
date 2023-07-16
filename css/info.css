@@ -76,6 +76,7 @@ body {
   border:solid 2px #779FD7;
   color: #fff;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .tab-wrap__nav__list__item.__now a {
@@ -165,7 +166,7 @@ body {
 
 .treat-wrap__right__block__list__item {
   width: 30%;
-  margin: 1% 1%;
+  margin: 1% 1% 1% 0;
   background-color: rgb(119, 159, 215, 15%);
   border-radius: 10px;
   text-align: center;

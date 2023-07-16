@@ -84,13 +84,13 @@
 
 .clinic-wrap .ttl {
   text-align: center;
+  margin-bottom: 4%;
 }
 
 .clinic-wrap__body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 4% auto;
 }
 
 .clinic-wrap__body__block {

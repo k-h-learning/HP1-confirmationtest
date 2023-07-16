@@ -26,11 +26,13 @@ body {
 
 .header-wrap__logo {
   width: 17.5%;
+  max-height: 90%;
   padding-left: 15px;
 }
 
 .header-wrap__logo a {
   transition: all 0.3s;
+  object-fit: cover;
 }
 
 .header-wrap__logo a:hover {
@@ -78,6 +80,7 @@ body {
   bottom: -2.5px;
   opacity: 1;
   z-index: -1;
+  cursor: pointer;
 }
 
 .header-wrap__nav__list__item__contact a {
@@ -85,16 +88,20 @@ body {
   text-decoration: unset;
   display: block;
   color: #fff;
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.5;
   background-color: #779FD7;
+  border: solid 2.5px #779fd7;
   padding: 10.5% 32.5px;
   transition: all 0.3s;
 }
 
 .header-wrap__nav__list__item__contact a:hover {
-  background-color: #00FFD1;
+  background-color: #76CED6;
   color: #757575;
+  border: solid 2.5px #76CED6;
+  cursor: pointer;
 }
 
 .__inner {
@@ -132,6 +139,7 @@ body {
   font-size: 1.15rem;
   font-weight: 500;
   background-color: #779FD7;
+  border: solid 2.5px #779fd7;
   border-radius: 50px;
   color: #fff;
   line-height: 3.75;
@@ -143,6 +151,7 @@ body {
   background-color: #fff;
   color: #779FD7;
   border: solid 2.5px #779FD7;
+  cursor: pointer;
 }
 
 .g-ttl {
@@ -283,9 +292,9 @@ body {
 .footer-wrap__body__res__web a {
   width: 100%;
   height: 100%;
-  background-color: #966893;
+  background-color: #fff;
   border: solid 2.5px #fff;
-  color: #fff;
+  color: #677b96;
   display: flex;
   flex-direction: column;
   justify-content: center;

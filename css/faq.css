@@ -68,6 +68,10 @@ body {
   list-style: none;
 }
 
+.faq-wrap__body__list__item label:hover {
+  cursor: pointer;
+}
+
 .faq-wrap__body__list__item__tog {
   display: none;
 }
